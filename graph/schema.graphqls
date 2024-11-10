@@ -16,7 +16,7 @@ type Query {
 }
 
 type Mutation {
-  createJobListing(input: CreateJobListing): JobListing!
+  createJobListing(input: CreateJobListing!): JobListing!
   updateJobListing(id: ID!, input: UpdateJobListing!): JobListing!
   deleteJobListing(id: ID!): DeleteJobResponse!
 }
